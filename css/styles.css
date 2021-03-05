@@ -1,0 +1,85 @@
+body{
+	font-size: 16px;
+	color: #FFF;
+	background-color: #fe676e;
+	font-family:'Oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: #ffdca2;
+	border-radius: 0;
+	border :0;
+}
+
+#logo-image {
+	background: url('../Images/Logo.png') no-repeat;
+	width:145px;
+	height: 145px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #c73866;
+	font-size:1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #455054;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+
+.navbar-brand a:hover ,.navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color:#c73866;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#nav-list a:hover {
+	background:#fd8f52;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+#phone{
+	margin-top: 5px;
+}
+
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+
+#phone div{
+	color:#000;
+	text-align: right;
+	padding-right: 15px;
+	font-family: Lora;
+	font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:2px solid #c73866;
+	background-color:white;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
